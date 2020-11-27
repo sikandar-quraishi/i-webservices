@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+
+  height: 100%;
+  margin: 0px;
+  padding: 0%;
+  font-family: 'Castoro', serif;
+  background-color: #f4f5f1;
+  
+}
+
+
+
+.bottom_tab{
+  position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.MuiBottomNavigationAction-root.Mui-selected {
+  color: #6f8c7a !important;
+}
+
+.MuiBox-root-20 {
+  padding: 0px !important;
+}

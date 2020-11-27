@@ -1,0 +1,23 @@
+// .css-1okebmr-indicatorSeparator {
+  
+//     background-color: hsl(185deg 24% 28%) !important;
+  
+// }
+
+.select_style{
+    width: 100%;
+    padding: 4px;
+    color: #ffffff;
+    background: #365558;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+option{
+    text-transform: uppercase;
+}
+.select_style:focus {
+    outline: none;
+}
