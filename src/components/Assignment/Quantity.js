@@ -43,6 +43,10 @@ const useStyles = makeStyles((theme) => ({
   section3: {
     margin: theme.spacing(2),
   },
+  section5: {
+    margin: theme.spacing(2, 2),
+    // margin: '1em 1em 1em 1em'
+  },
   button: {
     margin: theme.spacing(0),
     background: "#365558",
@@ -116,7 +120,7 @@ export default function MiddleDividers(props) {
         <Divider variant="middle" />
 
         <Typography
-          className={classes.section1}
+          className={classes.section5}
           color="textSecondary"
           variant="body1"
         >
@@ -200,7 +204,7 @@ export default function MiddleDividers(props) {
       >
         <DialogTitle
           id="alert-dialog-slide-title"
-          style={{ textAlign: "center", textTransform: "uppercase" }}
+          style={{ textAlign: "center", textTransform: "uppercase", color: "#365558" }}
         >
           {"Choose Quantity"}
         </DialogTitle>
@@ -218,7 +222,7 @@ export default function MiddleDividers(props) {
               >
                 <RemoveCircleOutlineIcon style={{ fontSize: "3rem" }} />
               </IconButton>
-              <span style={{ margin: "0 3em", fontSize: "16px" }}>
+              <span style={{ margin: "0 3em", fontSize: "16px", color: "#365558" }}>
                 {quantity}{" "}
               </span>
               <IconButton
@@ -236,11 +240,8 @@ export default function MiddleDividers(props) {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          {/* <Button onClick={handleClose} color="primary">
-            Disagree
-          </Button> */}
           <Button style={{textTransform: "capitalize",
-    color: "#07d06f"}} onClick={handleClose} color="primary">
+    color: "#365558"}} onClick={handleClose} color="primary">
             Add
           </Button>
         </DialogActions>
