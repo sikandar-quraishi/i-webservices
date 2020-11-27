@@ -1,11 +1,11 @@
 import React from "react";
+import BottomTab from './components/Assignment/BottomTab';
 import './App.css';
-import Index from './components/17-11-2020/index';
 
 const App = () => {
   return (
       <div className="container">
-       <Index/>
+       <BottomTab/>
       </div>
   );
 };

@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Navbar = () => {
+const SelectHeader = () => {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -81,4 +81,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default SelectHeader;

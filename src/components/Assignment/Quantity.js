@@ -51,7 +51,13 @@ const useStyles = makeStyles((theme) => ({
     color: "#fff",
     marginBottom: "5em",
     textTransform: "initial",
+    '&:hover': {
+      backgroundColor: '#28393b',
+      borderColor: '#0062cc',
+      boxShadow: 'none',
+    },
   },
+  
 }));
 
 export default function MiddleDividers(props) {
@@ -233,7 +239,8 @@ export default function MiddleDividers(props) {
           {/* <Button onClick={handleClose} color="primary">
             Disagree
           </Button> */}
-          <Button onClick={handleClose} color="primary">
+          <Button style={{textTransform: "capitalize",
+    color: "#07d06f"}} onClick={handleClose} color="primary">
             Add
           </Button>
         </DialogActions>
